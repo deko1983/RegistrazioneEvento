@@ -1,0 +1,76 @@
+/* Stile base per la pagina */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Contenitore principale */
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Titolo */
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Etichette e input */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Pulsante */
+button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Gruppi di radio button e checkbox */
+.checkbox-group, .radio-group {
+    margin-bottom: 1rem;
+}
+
+.checkbox-group label, .radio-group label {
+    font-weight: normal;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+/* Note aggiuntive */
+textarea {
+    resize: vertical;
+}
+
+/* Messaggio per i termini */
+label[for="termini"] {
+    font-weight: normal;
+}
